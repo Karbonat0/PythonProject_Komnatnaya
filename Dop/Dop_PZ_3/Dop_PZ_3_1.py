@@ -10,6 +10,6 @@ while True:
         else:
             print(a*b*1.5)
     except ValueError:
-        print("Неправильно, введите целые числа.")
+        print("Неправильно, введите целые числа. ")
         continue
     break

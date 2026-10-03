@@ -9,6 +9,6 @@ while True:
         else:
             print(a*5)
     except ValueError:
-        print("Неправильно, введите целое число.")
+        print("Неправильно, введите целое число. ")
         continue
     break

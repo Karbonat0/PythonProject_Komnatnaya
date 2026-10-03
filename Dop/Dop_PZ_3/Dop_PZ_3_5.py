@@ -9,6 +9,6 @@ while True:
         else:
             print(a + b -2)
     except ValueError:
-        print("Неправильно, введите целые числа.")
+        print("Неправильно, введите целые числа. ")
         continue
     break

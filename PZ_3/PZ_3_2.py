@@ -16,6 +16,6 @@ while True:
         else:
             print("Ошибка. Вероятно, некоторые числа совпадают. ")
     except ValueError:
-        print("Ошибка! Введите целые числа. ")
+        print("Ошибка! Введите целые числа.  ")
         continue
     break

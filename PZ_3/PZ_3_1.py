@@ -25,6 +25,6 @@ while True:
         else:
             print("Высказывание ложно: все числа меньше нуля. ")
     except ValueError:
-        print("Ошибка! Введите целые числа.")
+        print("Ошибка! Введите целые числа. ")
         continue
     break

@@ -14,7 +14,7 @@ while True:
         elif A > C > B or B > C > A:
             print("Среднее число С:", C)
         else:
-            print("Ошибка. Вероятно, некоторые числа совпадают.")
+            print("Ошибка. Вероятно, некоторые числа совпадают. ")
     except ValueError:
         print("Ошибка! Введите целые числа. ")
         continue

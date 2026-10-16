@@ -6,16 +6,16 @@ while True:
         A = int(input("Введите число A: "))
         B = int(input("Введите число B: "))
         C = int(input("Введите число C: "))
-
-        if A > B > C or C > B > A:
-            print("Среднее число B:", B)
-        elif B > A > C or C > A > B:
-            print("Среднее число А:", A)
-        elif A > C > B or B > C > A:
-            print("Среднее число С:", C)
-        else:
-            print("Ошибка. Вероятно, некоторые числа совпадают. ")
     except ValueError:
         print("Ошибка! Введите целые числа. ")
         continue
     break
+
+if A > B > C or C > B > A:
+    print("Среднее число B:", B)
+elif B > A > C or C > A > B:
+    print("Среднее число А:", A)
+elif A > C > B or B > C > A:
+    print("Среднее число С:", C)
+else:
+    print("Ошибка. Вероятно, некоторые числа совпадают. ")

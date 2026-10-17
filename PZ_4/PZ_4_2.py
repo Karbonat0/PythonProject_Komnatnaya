@@ -21,4 +21,4 @@ K = 0
 while (K ** 2) <= N:
     K += 1
 
-print("Число K: ", K)
+print("Число K:", K)

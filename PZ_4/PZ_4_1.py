@@ -13,7 +13,7 @@ while True:
             else:
                 break
     except ValueError:
-        print("Ошибка! Введите корректные числа.")
+        print("Ошибка! Введите корректные числа. ")
         continue
     break
 

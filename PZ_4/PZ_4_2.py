@@ -3,3 +3,22 @@
 # которого превосходит N: K2 > N. Функцию извлечения квадратного корня не
 # использовать.
 
+while True:
+    try:
+        while True:
+            N = int(input("Введите  положительное целое число: "))
+            if N <= 0:
+                print("Ошибка! Число не является положительным.")
+                continue
+            else:
+                break
+    except ValueError:
+        print("Ошибка! Введите целое число.")
+        continue
+    break
+
+K = 0
+while (K ** 2) <= N:
+    K += 1
+
+print("Число K: ", K)

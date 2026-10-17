@@ -7,7 +7,7 @@ while True:
         A = float(input("Введите число с плавающей точкой: "))
         while True:
             N = int(input("Введите  положительное целое число: "))
-            if N < 0:
+            if N <= 0:
                 print("Введите положительное число!")
                 continue
             else:
@@ -23,5 +23,7 @@ s = 0
 while k < N:
     k += 1
     s = A ** k
-    print(s)
-
+    if s % 1 == 0:
+        print(s)
+    else:
+        continue

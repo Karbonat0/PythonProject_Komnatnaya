@@ -12,8 +12,8 @@ while k < N:
     A.append(random.randrange(-10, 10))
     k += 1
 
-print(A)
+print(A, "\n")
 A.sort()
-print(A[1::2])
+print(A[1::2], "\n")
 A.reverse()
-print(A[2::2])
+print(A[2::2], "\n")

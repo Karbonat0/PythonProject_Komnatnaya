@@ -6,7 +6,7 @@
 
 while True:
     try:
-        A = input("Введите текст: ")
+        A = float(input("Введите число: "))
     except ValueError:
         print("Ошибка!")
         continue
@@ -14,7 +14,7 @@ while True:
 
 while True:
     try:
-        B = input("Введите текст: ")
+        B = float(input("Введите число: "))
     except ValueError:
         print("Ошибка!")
         continue
@@ -22,7 +22,7 @@ while True:
 
 while True:
     try:
-        C = input("Введите текст: ")
+        C = float(input("Введите число: "))
     except ValueError:
         print("Ошибка!")
         continue
@@ -36,6 +36,7 @@ def ShiftLeft3(A, B, C):
     spisok.pop(0)
     spisok.insert(2, A)
     print(spisok)
+    return
 
 ShiftLeft3(A, B, C)
 

@@ -1,17 +1,28 @@
-#С помощью функций получить вертикальную и горизонтальную линии.
+# С помощью функций получить вертикальную и горизонтальную линии. Линия
+# проводится многократной печатью символа. Заключить слово в рамку из
+# полученных линий.
+
+def gorLine(text):
+    k = len(text)
+    gl = " " + (2 + k) * "—"
+    print(gl)
+    return
+def vertLine(text):
+    vl = "| " + text + " |"
+    print(vl)
+    return
+def ramka(text):
+    gorLine(text)
+    vertLine(text)
+    gorLine(text)
+    return
 
 while True:
     try:
-        ttt = input("Введите текст: ")
+        vashText = input("Введите текст: ")
     except ValueError:
         print("Ошибка!")
         continue
     break
 
-def ramka(text):
-    k = len(text)
-    rv = (2 + k) * "—"
-    rs = "| " + text + " |"
-    print(" " + rv, rs, " " + rv, sep = "\n")
-
-ramka(ttt)
+ramka(vashText)

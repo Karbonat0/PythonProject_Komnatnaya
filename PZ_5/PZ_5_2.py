@@ -4,9 +4,30 @@
 #помощью этой функции выполнить левый циклический сдвиг для двух данных
 #наборов из трех чисел: (A1, B1, C1) и (A2, B2, C2).
 
-A = input("Введите любое значение: ")
-B = input("Введите любое значение: ")
-C = input("Введите любое значение: ")
+while True:
+    try:
+        A = input("Введите текст: ")
+    except ValueError:
+        print("Ошибка!")
+        continue
+    break
+
+while True:
+    try:
+        B = input("Введите текст: ")
+    except ValueError:
+        print("Ошибка!")
+        continue
+    break
+
+while True:
+    try:
+        C = input("Введите текст: ")
+    except ValueError:
+        print("Ошибка!")
+        continue
+    break
+
 def ShiftLeft3(A, B, C):
     spisok = []
     spisok.append(A)

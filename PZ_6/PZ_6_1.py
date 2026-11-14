@@ -9,15 +9,12 @@ A = []
 k = 0
 
 while k < N:
-    A.append(random.randrange(-10, 10))
+    A.append(random.randrange(-50, 50))
     k += 1
 
 print(A, "\n")
+print(A[1::2], "\n")
 
-nech = A[1::2]
-nech.sort()
-print(nech , "\n")
-
-chet = A[2::2]
-chet.sort(reverse = True)
+chet = A[0::2]
+chet.reverse()
 print(chet, "\n")

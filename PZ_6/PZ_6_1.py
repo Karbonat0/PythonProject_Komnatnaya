@@ -13,7 +13,11 @@ while k < N:
     k += 1
 
 print(A, "\n")
-A.sort()
-print(A[1::2], "\n")
-A.reverse()
-print(A[2::2], "\n")
+
+nech = A[1::2]
+nech.sort()
+print(nech , "\n")
+
+chet = A[2::2]
+chet.sort(reverse = True)
+print(chet, "\n")

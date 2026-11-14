@@ -10,7 +10,7 @@ A, B, C = [], [], []
 k = 0
 
 while k < N:
-    A.append(random.randrange(-10, 10))
+    A.append(random.randrange(-30, 30))
     k += 1
 
 for i in A:
@@ -18,6 +18,7 @@ for i in A:
         B.append(i)
     elif i > 0:
         C.append(i)
+
 print(A, "\n")
 print(len(B), B, sep = "\n")
 print(len(C), C, sep = "\n")
